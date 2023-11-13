@@ -1,0 +1,98 @@
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-content:start;
+    border: 10px solid brown;
+    height: 500px;
+    width: 650px;
+   
+    flex: none;
+    margin-left: 30%;
+    margin-top: -10%;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 250px;
+    width: 550px;
+    margin-left: 40%;
+}
+aside{
+    flex: none;
+    width: 20%;
+}
+section{
+    width: 80%;
+}
+article{
+    width: 0%;
+}
+.box{
+    width: 150px;
+    height: 100px;
+    font-size: 3em;
+    text-align: center;
+    border-radius: 15px;
+    padding-left: 5px;
+    box-shadow:black 4em;
+}
+
+.text{
+    width: 150px;
+    height:150px;
+    font-size: 6em;
+    flex: left;
+}
+.box1{
+    width: 250px;
+    height: 100px;
+    font-size: 3em;
+    text-align: center;
+    border-radius: 15px;
+    padding-left: 0px;
+    box-shadow: 5em;
+}
+#box1{
+    order: 3;
+    align-self: start;
+    background-color: rgb(129, 129, 240);
+   
+}
+#box11{
+    order: 1;
+    align-self: start;
+    background-color: rgb(129, 129, 240);
+   
+}
+#box12{
+    order: 2;
+    align-self: start;
+    background-color: rgb(129, 129, 240);
+   
+}
+#box1 h1{
+    
+    flex:left;
+}
+#box2{
+    order: 6;
+    align-self: start;
+    background-color: rgb(79, 94, 12);
+}
+#box3{
+   align-self: start;
+   order: 3;
+    background-color: rgb(12, 12, 211);
+}
+#box4{
+    align-self: start;
+    order: 4;
+    background-color: rgb(66, 221, 19);
+}
+#box5{
+     align-self: start;
+     order: 5;
+    background-color: rgb(10, 190, 235);
+}

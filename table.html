@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" id="contact_form">
+        <div class="form_item">
+            <label for="select">Тема</label><br>
+            <select name="SelectTheme" id="select">
+                <option value="1">Отзыв</option>
+                <option value="2">Услуга</option>
+                <option value="3">Сотрудничество</option>
+                <option value="4">Другое</option>
+            </select>
+        </div>
+        <div class="form_item">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" required>
+        </div>
+        <div class="form_item">
+            <label for="surname" >E-mail</label><br>
+            <input type="email" id="surname" required placeholder="E-mail">
+        </div>
+        <div class="form_item">
+            <input type="submit">
+        </div>
+        <div class="form_item">
+            <label for="TextField">Text</label><br>
+            <textarea name="TextArea" id="TextField" cols="30" rows="10" required placeholder="Ваше сообщение"></textarea>
+        </div>
+        <div class="form_item">
+            <label for="date">Date</label><br><input type="date" name="" id="date"></div>
+        <div class="form_item"><label for="tel">Phone Number</label><br><input type="tel" name="" id="tel"></div>
+        <div class="form_item"><label for="checkbox">Do you agree to send your data?</label><br><input type="checkbox" name="" id="checkbox"></div>
+    </form>
+    
+</body>
+</html>
